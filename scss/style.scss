@@ -2,7 +2,7 @@
 
 @import 'reset';
 
-#wrap{
+#wrap1{
     width: 800px;
     height: 400px;
     position: absolute;
@@ -31,6 +31,20 @@
         background: #000;
         position: absolute; bottom: 0; left: 0;
     }
+
+    .content{
+        width: 100%; height: 100%;
+        background: #111; position: absolute;
+        top: 0; left: 0;
+        display: none;
+
+        .close{
+            font: bold 14px/1 'arial';
+            color: #fff;
+            position: absolute; top: 30px; right: 0;
+            opacity: 1;
+        }
+    }
 }
 .btn1{
     display: block;
@@ -45,4 +59,34 @@
     font: bold 12px/40px 'arial';
     text-align: center;
     color: #fff;
+}
+.btn2{
+    display: block;
+    width: 380px;
+    height: 40px;
+    position: absolute;
+    top: 50%; right: 50%;
+    background: #000;
+    margin-right: -400px;
+    margin-top: 210px;
+    border: none;
+    font: bold 12px/40px 'arial';
+    text-align: center;
+    color: #fff;
+}
+
+#wrap2{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 50%; left: 0%;
+    margin-top: 0px;
+    background: #111;
+
+    .close{
+        font: bold 14px/1 'arial';
+        color: #fff;
+        position: absolute; top: 30px; right: 0;
+        opacity: 1;
+    }
 }
