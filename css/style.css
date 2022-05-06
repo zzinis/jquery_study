@@ -43,6 +43,216 @@ a {
       #tab .group > div#tab1 {
         display: block; }
 
+#tab {
+  width: 600px;
+  border: 1px solid #000;
+  margin: 100px auto;
+  position: relative;
+  padding-top: 40px; }
+  #tab dt {
+    width: calc(100% / 3);
+    height: 40px;
+    position: absolute;
+    top: 0; }
+    #tab dt:nth-of-type(1) {
+      left: calc((100% / 3) * 0); }
+    #tab dt:nth-of-type(2) {
+      left: calc((100% / 3) * 1); }
+    #tab dt:nth-of-type(3) {
+      left: calc((100% / 3) * 2); }
+    #tab dt a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: #555;
+      font: bold 14px/40px 'arial';
+      color: #aaa;
+      text-align: center; }
+      #tab dt a.on {
+        background: #fff;
+        color: #444; }
+  #tab dd {
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    display: none; }
+    #tab dd#tab1 {
+      display: block; }
+
+#tabtab {
+  width: 600px;
+  border: 1px solid #000;
+  position: relative;
+  margin: 100px auto;
+  padding-left: 200px;
+  box-sizing: border-box; }
+  #tabtab > dt {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 0; }
+    #tabtab > dt:nth-of-type(1) {
+      bottom: calc(50px * 2);
+      /* 100px*/ }
+    #tabtab > dt:nth-of-type(2) {
+      bottom: calc(50px * 1);
+      /* 50px*/ }
+    #tabtab > dt:nth-of-type(3) {
+      bottom: calc(50px * 0);
+      /* 0px*/ }
+    #tabtab > dt a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: #555;
+      font: bold 14px/50px 'arial';
+      color: #aaa;
+      text-align: center; }
+      #tabtab > dt a.on {
+        background: #fff;
+        color: #222; }
+  #tabtab > dd {
+    width: 100%;
+    background: #fff;
+    padding: 60px;
+    box-sizing: border-box;
+    display: none; }
+    #tabtab > dd#tab1 {
+      display: block;
+      height: 300px; }
+    #tabtab > dd#tab2 {
+      height: 400px; }
+    #tabtab > dd#tab3 {
+      height: 350px; }
+    #tabtab > dd a {
+      font: bold 30px/1 'arial';
+      color: blue; }
+
+.wrap {
+  width: 1200px;
+  height: 360px;
+  position: absolute;
+  top: 50%;
+  margin-top: -180px;
+  left: 50%;
+  margin-left: -600px; }
+  .wrap h1 {
+    position: absolute;
+    left: 0;
+    top: -100px; }
+  .wrap .ft1 {
+    position: absolute;
+    bottom: -30px;
+    left: -57px; }
+  .wrap .ft2 {
+    position: absolute;
+    bottom: -30px;
+    right: 0; }
+  .wrap .tab {
+    width: 1200px;
+    height: 360px;
+    position: relative; }
+    .wrap .tab .left {
+      width: 320px;
+      height: 360px;
+      background: #222;
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 40px 30px;
+      box-sizing: border-box; }
+      .wrap .tab .left h2 {
+        font: bold 14px/1 'arial';
+        color: #fff;
+        margin-bottom: 40px; }
+      .wrap .tab .left .navi {
+        width: 100%; }
+        .wrap .tab .left .navi li a {
+          display: block;
+          font: 12px/1 'Aldrich';
+          color: #bbb;
+          border-bottom: 1px solid #333;
+          padding: 12px 8px;
+          box-sizing: border-box; }
+          .wrap .tab .left .navi li a.on {
+            color: orange;
+            background: #000;
+            padding: 12px 30px; }
+    .wrap .tab .box {
+      width: 880px;
+      height: 360px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: none; }
+      .wrap .tab .box h2 {
+        font: 80px/1 'Aldrich';
+        color: #111;
+        letter-spacing: 5px;
+        position: absolute;
+        left: 0;
+        top: 100px;
+        opacity: 0;
+        transition: 1s; }
+      .wrap .tab .box h3 {
+        font: bold 250px/1 'Verdana';
+        color: #999;
+        letter-spacing: -10px;
+        position: absolute;
+        right: -100px;
+        bottom: -25px;
+        opacity: 0;
+        transition: 2.5s; }
+      .wrap .tab .box p {
+        font: bold 16px/1.4 'arial';
+        color: #aaa;
+        letter-spacing: 2px;
+        position: absolute;
+        left: 0;
+        top: 200px;
+        opacity: 0;
+        transition: 1.5s; }
+      .wrap .tab .box.on {
+        display: block; }
+        .wrap .tab .box.on h2 {
+          left: 100px;
+          opacity: 1; }
+        .wrap .tab .box.on h3 {
+          right: 0;
+          opacity: 0.1; }
+        .wrap .tab .box.on p {
+          left: 0;
+          opacity: 1; }
+      .wrap .tab .box#tab1 {
+        background: #f7fbd9; }
+        .wrap .tab .box#tab1 > img {
+          position: absolute;
+          right: -152px;
+          bottom: -22px;
+          transform: rotate(-70deg);
+          opacity: 0; }
+        .wrap .tab .box#tab1.on > img {
+          transform: rotate(0deg);
+          opacity: 1; }
+      .wrap .tab .box#tab2 {
+        background: #fbf6ca; }
+        .wrap .tab .box#tab2 > img {
+          position: absolute;
+          right: -152px;
+          bottom: -22px; }
+      .wrap .tab .box#tab3 {
+        background: #ffecf2; }
+        .wrap .tab .box#tab3 > img {
+          position: absolute;
+          right: -152px;
+          bottom: -22px; }
+      .wrap .tab .box#tab4 {
+        background: #ecf9ff; }
+        .wrap .tab .box#tab4 > img {
+          position: absolute;
+          right: -152px;
+          bottom: -22px; }
+
 #wrap1 {
   width: 800px;
   height: 400px;
