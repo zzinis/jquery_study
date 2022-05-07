@@ -128,7 +128,7 @@ a {
       font: bold 30px/1 'arial';
       color: blue; }
 
-.wrap {
+.wraps {
   width: 1200px;
   height: 360px;
   position: absolute;
@@ -136,23 +136,23 @@ a {
   margin-top: -180px;
   left: 50%;
   margin-left: -600px; }
-  .wrap h1 {
+  .wraps h1 {
     position: absolute;
     left: 0;
     top: -100px; }
-  .wrap .ft1 {
+  .wraps .ft1 {
     position: absolute;
     bottom: -30px;
     left: -57px; }
-  .wrap .ft2 {
+  .wraps .ft2 {
     position: absolute;
     bottom: -30px;
     right: 0; }
-  .wrap .tab {
+  .wraps .tabs {
     width: 1200px;
     height: 360px;
     position: relative; }
-    .wrap .tab .left {
+    .wraps .tabs .left {
       width: 320px;
       height: 360px;
       background: #222;
@@ -161,31 +161,31 @@ a {
       left: 0;
       padding: 40px 30px;
       box-sizing: border-box; }
-      .wrap .tab .left h2 {
+      .wraps .tabs .left h2 {
         font: bold 14px/1 'arial';
         color: #fff;
         margin-bottom: 40px; }
-      .wrap .tab .left .navi {
+      .wraps .tabs .left .navi {
         width: 100%; }
-        .wrap .tab .left .navi li a {
+        .wraps .tabs .left .navi li a {
           display: block;
           font: 12px/1 'Aldrich';
           color: #bbb;
           border-bottom: 1px solid #333;
           padding: 12px 8px;
           box-sizing: border-box; }
-          .wrap .tab .left .navi li a.on {
+          .wraps .tabs .left .navi li a.on {
             color: orange;
             background: #000;
             padding: 12px 30px; }
-    .wrap .tab .box {
+    .wraps .tabs .box {
       width: 880px;
       height: 360px;
       position: absolute;
       top: 0;
       right: 0;
       display: none; }
-      .wrap .tab .box h2 {
+      .wraps .tabs .box h2 {
         font: 80px/1 'Aldrich';
         color: #111;
         letter-spacing: 5px;
@@ -194,7 +194,7 @@ a {
         top: 100px;
         opacity: 0;
         transition: 1s; }
-      .wrap .tab .box h3 {
+      .wraps .tabs .box h3 {
         font: bold 250px/1 'Verdana';
         color: #999;
         letter-spacing: -10px;
@@ -203,7 +203,7 @@ a {
         bottom: -25px;
         opacity: 0;
         transition: 2.5s; }
-      .wrap .tab .box p {
+      .wraps .tabs .box p {
         font: bold 16px/1.4 'arial';
         color: #aaa;
         letter-spacing: 2px;
@@ -212,43 +212,43 @@ a {
         top: 200px;
         opacity: 0;
         transition: 1.5s; }
-      .wrap .tab .box.on {
+      .wraps .tabs .box.on {
         display: block; }
-        .wrap .tab .box.on h2 {
+        .wraps .tabs .box.on h2 {
           left: 100px;
           opacity: 1; }
-        .wrap .tab .box.on h3 {
+        .wraps .tabs .box.on h3 {
           right: 0;
           opacity: 0.1; }
-        .wrap .tab .box.on p {
+        .wraps .tabs .box.on p {
           left: 0;
           opacity: 1; }
-      .wrap .tab .box#tab1 {
+      .wraps .tabs .box#tab11 {
         background: #f7fbd9; }
-        .wrap .tab .box#tab1 > img {
+        .wraps .tabs .box#tab11 > img {
           position: absolute;
           right: -152px;
           bottom: -22px;
           transform: rotate(-70deg);
           opacity: 0; }
-        .wrap .tab .box#tab1.on > img {
+        .wraps .tabs .box#tab11.on > img {
           transform: rotate(0deg);
           opacity: 1; }
-      .wrap .tab .box#tab2 {
+      .wraps .tabs .box#tab22 {
         background: #fbf6ca; }
-        .wrap .tab .box#tab2 > img {
+        .wraps .tabs .box#tab22 > img {
           position: absolute;
           right: -152px;
           bottom: -22px; }
-      .wrap .tab .box#tab3 {
+      .wraps .tabs .box#tab33 {
         background: #ffecf2; }
-        .wrap .tab .box#tab3 > img {
+        .wraps .tabs .box#tab33 > img {
           position: absolute;
           right: -152px;
           bottom: -22px; }
-      .wrap .tab .box#tab4 {
+      .wraps .tabs .box#tab44 {
         background: #ecf9ff; }
-        .wrap .tab .box#tab4 > img {
+        .wraps .tabs .box#tab44 > img {
           position: absolute;
           right: -152px;
           bottom: -22px; }

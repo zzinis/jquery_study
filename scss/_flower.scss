@@ -1,4 +1,4 @@
-.wrap{
+.wraps{
     width:1200px; height:360px; 
     position:absolute; top:50%; margin-top:-180px; left:50%; margin-left:-600px;
 
@@ -12,7 +12,7 @@
         position:absolute; bottom:-30px; right:0;  
     }
 
-    .tab{
+    .tabs{
         width:1200px; height:360px; position:relative; 
 
         .left{
@@ -68,17 +68,17 @@
                 p{left:0; opacity:1;}
             }
 
-            &#tab1{ background:#f7fbd9; 
+            &#tab11{ background:#f7fbd9; 
                 >img{ position:absolute; right:-152px; bottom:-22px; transform:rotate(-70deg); opacity:0; }
                 &.on>img{ transform:rotate(0deg); opacity:1; }
             }
-            &#tab2{ background:#fbf6ca; 
+            &#tab22{ background:#fbf6ca; 
                 >img{ position:absolute; right:-152px; bottom:-22px; }
             }
-            &#tab3{ background:#ffecf2; 
+            &#tab33{ background:#ffecf2; 
                 >img{ position:absolute; right:-152px; bottom:-22px; }
             }
-            &#tab4{ background:#ecf9ff; 
+            &#tab44{ background:#ecf9ff; 
                 >img{ position:absolute; right:-152px; bottom:-22px; }
             }
         }

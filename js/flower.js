@@ -1,8 +1,8 @@
-const $btns = $(".navi li a");
-const $boxs = $(".box");
+const $btnz = $(".navi li a");
+const $boxz = $(".box");
 let isDone = true;
 
-$btns.on("click", function(e){
+$btnz.on("click", function(e){
     e.preventDefault();
 
     let isOn = $(this).hasClass("on");
@@ -18,13 +18,13 @@ $btns.on("click", function(e){
 });
 
 function activeBtn(el){
-    $btns.removeClass("on");
+    $btnz.removeClass("on");
     el.addClass("on");
 }
 
 function showTab(target){
-    $boxs.fadeOut(1000);
-    $boxs.removeClass("on");
+    $boxz.fadeOut(1000);
+    $boxz.removeClass("on");
 
     $(target).fadeIn(1000, function(){
         isDone = true;
