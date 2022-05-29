@@ -1,5 +1,4 @@
 @charset 'UTF-8'; 
-
 h1{
     position:fixed; 
     top:20px; 
@@ -77,7 +76,7 @@ figure{
             float:left; 
             padding:0 20px; 
             perspective:600px; 
-            
+
             a{
                 display:block; 
                 width:100%; 
@@ -97,5 +96,17 @@ figure{
                 font-weight:bold;
             }
         }
+    }
+
+    #circle{
+        position:fixed; 
+        top:50%; margin-top:-160px;  right:-160px; 
+        transition:1s; 
+
+        &.rot0{ transform:rotate(0deg); }
+        &.rot1{ transform:rotate(60deg); }
+        &.rot2{ transform:rotate(120deg); }
+        &.rot3{ transform:rotate(180deg); }
+        &.rot4{ transform:rotate(240deg); }
     }
 }
