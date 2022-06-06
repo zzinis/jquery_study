@@ -8,17 +8,16 @@ const swiper = new Swiper('.wrap', {
         clickable: true
     }, 
     loop: true, 
-    speed : 500,  
+    speed : 500,
     direction : "horizontal", 
     spaceBetween : 0, 
     slidesPerView : 1, 
     grabCursor : true, 
-
     autoplay :{
         delay:1000, 
         disableOnInteraction : true 
-        
-    } 
+    },
+    effect : "fade" 
 });
 
 var btnStart = document.querySelector(".btnStart"); 
